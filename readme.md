@@ -1,6 +1,6 @@
 ## Treehouse Badges for Octopress
 
-This widget allows you to display your hard-won (Treehouse)[http://www.teamtreehouse.com] badges in the sidebar of your Octopress site.
+This widget allows you to display your hard-won [Treehouse](http://www.teamtreehouse.com) badges in the sidebar of your Octopress site.
 
 ![Screenshot of Sidebar Widget](http://gdurl.com/Ijnt)
 
@@ -32,22 +32,51 @@ Since the Rake process did all of that, you need only open up _config.yml, add y
 
 ```
 default_asides: [custom/asides/treehousebadges.html, asides/recent_posts.html, ...
+```
 
-...
-
+```
 # Treehouse Badges for Octopress widget
 
 th_username: johnkeith
-
-# set to false if you want to only show a limited number of badges when widget loads
-
-th_show_all_badges: true
-
-#if the above is false, then specify the number of badges you want to display
-
-th_number_badges_visible:
+th_show_all_badges: false 
+th_number_badges_visible: 6 
 ```
+Set `th_show_all_badges` to false if you want to only show a limited number of badges when widget loads.
+
+If the above is false, then specify the number of badges you want to display with an integer in `th_number_badges_visible`.
+
 Once you `rake generate` your site, the widget should appear in your sidebar!
+
+## The Old Fashioned (Manual) Install
+
+To install the widget without Rake:
+
+* Copy the treehousebadges.html into your Octopress's ../source/_includes/custom/asides folder
+* Copy the treehousebadges.js into the ../source/javascripts folder
+* Copy the treehousebadgesstyles.scss into your ../sass/plugins folder
+
+Next, open your _config.yml file and add these lines to control the widget's functionality. 
+
+```
+# Treehouse Badges for Octopress widget
+
+th_username: johnkeith 
+th_show_all_badges: false 
+th_number_badges_visible: 6 
+```
+
+(See above for an explaination of configuration options).
+
+Then, all you should need to do is make sure you load the treehousebadges.js script appropriately.
+
+## Note of Thanks
 
 Inspiration for this widget came from Riley Hilliard's awesome [tutorial on building a Treehouse Badges widget](http://rileyh.com/treehouse-badges-widget/) and also his [ReportCard.js](http://reportcard.rileyh.com/), which allows you to show off your Code School Badges as well. 
 
+## License
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
