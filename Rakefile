@@ -26,7 +26,7 @@ task :install, :octo_location do |t, args|
   end
 
   File.open("#{octo_location}/_config.yml", "a+") do |f|
-    f.write "\n\# TreeCard.js
+    f.write "\n\# Treehouse Badges for Octopress widget
              \nth_username:
              \nth_show_all_badges:
              \nth_number_badges_visible:"
