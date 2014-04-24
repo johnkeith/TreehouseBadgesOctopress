@@ -1,0 +1,44 @@
+/* for TreeCard.js */
+
+.badges-box {
+  margin:6px auto;
+  max-width:267px;
+}
+.badges-box p {
+  margin-top:0;
+}
+.badge-image-list {
+  text-align:center;
+  margin-left:-40px;
+}
+.badge-image-list img {
+  width:70px;
+  height:75px;
+  padding:0px 2px 0 2px;
+  -webkit-transition: all 0.5s ease;
+}
+.badge-image-list img:hover {
+  -webkit-transform: scale(1.1);
+  opacity:.5;
+}
+.badge-image-list a img {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0px;
+}
+#show-all {
+  border:3px solid #f2f2f2;
+  background:#fff;
+  padding:8px;
+  border-radius:4px;
+  font-size:1em;
+}
