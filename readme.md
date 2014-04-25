@@ -1,6 +1,6 @@
 ## Treehouse Badges for Octopress
 
-This widget allows you to display your hard-won [Treehouse](http://www.teamtreehouse.com) badges in the sidebar of your Octopress site.
+This widget allows you to display your hard-won [Treehouse](http://www.teamtreehouse.com) badges in the sidebar of your Octopress site. For a demo, [head here](http://johnkeith.us).
 
 ![Screenshot of Sidebar Widget](http://gdurl.com/Ijnt)
 
