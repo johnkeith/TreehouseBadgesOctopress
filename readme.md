@@ -8,13 +8,13 @@ Included in the repository is an installer that will do all the heavy lifting fo
 
 ### Knee-slappingly easy install with Rake
 
-Fire up a terminal or command prompt and navigate to your download of this repository. Once there, type `rake install[/path/to/your/octopress]`. You will need to replace the "/path/to/your/octopress" segement between the brackets with the absolute path to your Octopress folder, as seen below.
+Fire up a terminal or command prompt and navigate to your download of this repository. Once there, type `rake install[/path/to/your/octopress]`. You will need to replace the "/path/to/your/octopress" segment between the brackets with the absolute path to your Octopress folder, as seen below.
 
 ```
 # on OS X
 rake install[/users/johnkeith/dev/deploy/johnk]
 
-# on Windows (make sure you escape those backslashs)
+# on Windows (make sure you escape those backslashes)
 rake install[C:\\Users\\KeithJo\\testOctopressPlugin]
 ``` 
 
@@ -65,7 +65,7 @@ th_show_all_badges: false
 th_number_badges_visible: 6 
 ```
 
-(See Rake instructions above for an explaination of configuration options).
+(See Rake instructions above for an explanation of configuration options).
 
 Then, all you should need to do is make sure you load the treehousebadges.js script appropriately.
 
