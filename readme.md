@@ -28,7 +28,7 @@ The Rake installer does four things.
 
 4. It opens the _config.yml file in your Octopress folder and appends the necessary site variables for the widget
 
-Since the Rake process did all of that, you need only open up _config.yml, add your new aside to the default_asides array, and then fill in the config variables at the bottom of the file
+Since the Rake process does all of that, you need only open up _config.yml, add your new aside to the default_asides array, and then fill in the config variables at the bottom of the file
 
 ```
 default_asides: [custom/asides/treehousebadges.html, asides/recent_posts.html, ...
