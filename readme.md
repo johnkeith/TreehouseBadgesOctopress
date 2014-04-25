@@ -4,7 +4,7 @@ This widget allows you to display your hard-won [Treehouse](http://www.teamtreeh
 
 ![Screenshot of Sidebar Widget](http://gdurl.com/Ijnt)
 
-Included in the repository is an installer that will do all the heavy lifting for your via Rake. You can choose to install using the Rake instructions below or by copying the files into your Octopress folder manually. 
+Included in the repository is an installer that will do all the heavy lifting for you via Rake. You can choose to install using the Rake instructions below or by copying the files into your Octopress folder manually. 
 
 ### Knee-slappingly easy install with Rake
 
